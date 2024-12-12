@@ -1,0 +1,145 @@
+/* Global Styles */
+body {
+    font-family: 'Comic Sans MS', 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #e0f7fa, #bbdefb);
+    color: #003366;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #0288d1;
+    color: white;
+    padding: 20px 10%;
+    text-align: center;
+    border-bottom: 5px solid #0277bd;
+    font-size: 2em;
+    text-shadow: 2px 2px #01579b;
+}
+
+nav {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+    color: #bbdefb;
+    transform: scale(1.1);
+}
+
+/* Sections */
+section {
+    padding: 50px 10%;
+    margin: 20px auto;
+    border: 2px dashed #0288d1;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    max-width: 1200px;
+}
+
+h1, h2 {
+    font-size: 2.5em;
+    text-shadow: 1px 1px #0288d1;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+/* About Section */
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.about img {
+    max-width: 200px;
+    border: 5px solid #0288d1;
+    border-radius: 50%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.about p {
+    flex: 1;
+    font-size: 1.2em;
+}
+
+/* Projects Section */
+.project {
+    background-color: #e3f2fd;
+    border: 2px solid #0277bd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.project h3 {
+    font-size: 1.5em;
+    color: #01579b;
+}
+
+/* Contact Section */
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.contact input, .contact textarea {
+    padding: 10px;
+    font-size: 1em;
+    border: 2px solid #0288d1;
+    border-radius: 5px;
+}
+
+.contact button {
+    padding: 10px 15px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #0288d1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+    background-color: #0277bd;
+}
+
+/* Footer */
+footer {
+    background-color: #01579b;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+}
